@@ -1,0 +1,66 @@
+.body{
+    background-image: url(images/tile.jpg);
+
+}
+.titleImg{
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+}
+
+.formBg{
+    /* padding:20px; */
+    background: url(images/formbg.jpg);
+    background-repeat: repeat-y;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.notes{
+  background: url("images/notebg.png");  
+  background-size: 300px, 300px;
+  display:flexbox;
+  width: 200px;
+  height: 280px;
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-left: 30px;
+  float: left;
+  animation: fadeIn;
+  animation-duration:2s; 
+}
+.notes:hover .btn{
+    display: inline-block;
+
+}
+.taskData{
+  padding: 10px;
+  overflow-y : auto ;
+  overflow-x: auto;
+  height: 150px;
+  
+  
+}
+.spanTime{
+    width: 180px;   
+}
+
+#addTask, #reset{
+  margin-top: 40px;
+}
+
+.btn {
+width: 160px;
+height:30px;
+display: none;
+background-color: rgb(193, 101, 101);
+}
+
+
